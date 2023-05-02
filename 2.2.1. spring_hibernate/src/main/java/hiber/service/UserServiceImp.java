@@ -39,11 +39,7 @@ public class UserServiceImp implements UserService {
          sessionFactory.getCurrentSession().delete(user);
       }
    }
-//   @Transactional
-//   //@Override
-//   public User findByCar(String carName, String carSeries) {
-//      return userDao.findByCar(carName, carSeries);
-//   }
+
    }
 
 

@@ -8,5 +8,5 @@ public interface UserService {
     void addUser(User user);
     List<User> getUsersList();
     void deleteAllUsers();
-    //User findByCar(String carName, String carSeries);
+
 }
